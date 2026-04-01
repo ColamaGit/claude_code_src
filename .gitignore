@@ -1,1 +1,39 @@
-node_modules
+# Dependencies
+node_modules/
+dist/
+build/
+.next/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AI / Workspaces
+.gemini/
+antigravity/
+brain/
+artifacts/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temporary
+/tmp/
